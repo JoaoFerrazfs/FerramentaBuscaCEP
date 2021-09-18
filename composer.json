@@ -1,0 +1,26 @@
+{
+    "name": "joaoferrazfs/cep",
+    "description": "teste com API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joaoferrazfs",
+            "email": "joaoferrazp@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "joaoferraz\\cep\\":"src/"
+        }
+        
+    }
+    
+   
+}
